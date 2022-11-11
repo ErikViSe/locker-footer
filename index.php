@@ -5,6 +5,7 @@ include 'controller/FuncionarioController.php';
 include 'controller/ArmarioController.php';
 include 'controller/CursoController.php';
 include 'controller/AuthenticationController.php';
+include 'controller/DashController.php';
 
 
 
@@ -101,6 +102,10 @@ switch($url) {
         ArmarioController::excluir();
     break;
 
+    case '/dashboard':
+        DashController::Overview();
+    break;  
+ 
     default:
         echo "Erro 404";
     break;

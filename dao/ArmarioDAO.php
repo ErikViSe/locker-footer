@@ -158,7 +158,98 @@ class ArmarioDAO {
         }
 
     }
-        
+
+
+    public function count(){
+
+        try {
+
+            $sql = 'SELECT Count(id) FROM  armario';
+
+            $stmt = Connection::getConnection()->prepare($sql);
+
+            $stmt->execute();
+
+            $data = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            return $data["Count(id)"];
+          
+
+        } catch (Exception $e) {
+
+            echo 'Erro ao tentar contar os armarios totais.<br>' . $e . '<br>';
+
+        }
+    }
+     
+
+    public function countDisp(){
+
+        try {
+
+            $sql = 'SELECT Count(id) FROM  armario WHERE situacao = "disponivel"';
+
+            $stmt = Connection::getConnection()->prepare($sql);
+
+            $stmt->execute();
+
+            $data = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            return $data["Count(id)"];
+          
+
+        } catch (Exception $e) {
+
+            echo 'Erro ao tentar contar os armarios disponiveis.<br>' . $e . '<br>';
+
+        }
+    }
+
+    public function countAlug(){
+
+        try {
+
+            $sql = 'SELECT Count(id) FROM  armario WHERE situacao = "alugado"';
+
+            $stmt = Connection::getConnection()->prepare($sql);
+
+            $stmt->execute();
+
+            $data = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            return $data["Count(id)"];
+          
+
+        } catch (Exception $e) {
+
+            echo 'Erro ao tentar contar os armarios alugados.<br>' . $e . '<br>';
+
+        }
+    }
+
+    public function countIndisp(){
+
+        try {
+
+            $sql = 'SELECT Count(id) FROM  armario WHERE situacao = "indisponivel"';
+
+            $stmt = Connection::getConnection()->prepare($sql);
+
+            $stmt->execute();
+
+            $data = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            return $data["Count(id)"];
+          
+
+        } catch (Exception $e) {
+
+            echo 'Erro ao tentar contar os armarios indisponiveis.<br>' . $e . '<br>';
+
+        }
+    }
+    
+    
 }
 
 ?>

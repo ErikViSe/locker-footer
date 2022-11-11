@@ -91,13 +91,18 @@ class ArmarioController {
             $armariodao = new ArmarioDAO();
             
             $armarios = $armariodao->readSelection($local);
+
+      
+   
+    
+            //var_dump($armariodao->readQuantity());
         
             //echo '<pre>' , var_dump($armarios) , '</pre>';
 
         }
         
-        //include 'view/armarios/armarios.php';
-          include 'view/armarios/armarios2.php';
+        include 'view/armarios/armarios.php';
+          
         
     }
 
