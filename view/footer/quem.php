@@ -16,10 +16,21 @@
     
     <?php include "../../public/header.php"?>
 
-    <H1>QUEM SOMOS</H1>     <br> <br>
+    
+    <div class="container">
+	<div class="row mt-5">
+		<div class="col-md-12">
+            <div class="title-header text-center">
+                <h4>Quem somos</h4>
+            </div>
+        </div>
+	</div>
+</div>
+    
+    <br> <br>
 
 <div class="container">
-  <div class="card-group vgr-cards">
+  <div class="card-group-vgr-cards">
     <div class="card">
       <div class="card-img-body">
       
@@ -40,7 +51,7 @@
     <br><br>
 
 <div class="container">
-  <div class="card-group vgr-cards">
+  <div class="card-group-vgr-cards">
     <div class="card">
       <div class="card-img-body">
       
@@ -67,9 +78,19 @@
 
     <div class="text">
     <p>Visamos criar um site onde o Aluno/cliente tenha uma experiência dinâmica e facil na hora de alugar seu armário.</p>
-    </div>
+    </div> -->
 
-    <h2>Nossa Equipe</h2> -->
+    <br> <br>
+    
+<div class="container">
+	<div class="row mt-5">
+		<div class="col-md-12">
+            <div class="title-header text-center">
+                <h4>Nossa Equipe</h4>
+            </div>
+        </div>
+	</div>
+</div>
 
 <section>
     <div class="container">
