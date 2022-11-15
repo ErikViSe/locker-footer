@@ -11,8 +11,8 @@
 
 .lockers select {
     padding: .6rem;
-    border-radius: 1.5rem;
     margin: 2rem 1rem 1rem;
+    border-radius: 1.5rem;
     background-color: #ffc803;
     color: #fff;
     font-family: var(--primary-font);
@@ -23,9 +23,9 @@
 
 .lockers select option {
     background-color: #fafafa;
-    color: #424242;
+    color: #000;
     font-family: var(--primary-font);
-    font-weight: 400;
+    font-weight: 500;
     outline: none;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .grid-item {
-    padding: 50% 0;
+    padding-top: 2.2rem;
     border: .1px solid #fafafa;
     border-radius: 12px;
     font-family: var(--primary-font);
@@ -64,17 +64,17 @@
     background-size: cover;
 }
 
-.disponivel {
+.disponível {
     cursor: pointer;
     transition: all .3s ease;
 }
 
-.disponivel:hover {
+.disponível:hover {
     transform: scale(1.04);
     background-color: #319190;
 }
 
-.indisponivel {
+.indisponível {
     background-image: url("../img/indisponivel.svg"), url("../img/locker.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 40%, cover;
@@ -82,7 +82,7 @@
     cursor: not-allowed;
 }
 
-.alugado {
+.alugado, .reservado {
     opacity: 50%;
     cursor: not-allowed;
 }
@@ -112,6 +112,9 @@
     cursor: pointer;
 }
 
-.reserve-form > button:hover {
+.reserve-form > button[disabled] {
     background-color: #fdd954;
+    cursor: not-allowed;
 }
+
+
