@@ -114,10 +114,11 @@ switch($url) {
         DashController::Overview();
     break;
     
-    case '/excluir-aluguel':
-        DashController::excluir_aluguel();
-    break;    
- 
+
+    case '/footer':
+      include  'view\footer\quem.php';    
+    break;
+
     default:
         echo "Erro 404";
     break;

@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../public/assets/css/quem.css">
+    <link rel="stylesheet" href="public/assets/css/quem.css">
+    <link rel="stylesheet" href="public/assets/css/style.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
+    
     <title>Quem somos</title>
 </head>
 <body>
     
-    <?php include "../../public/header.php"?>
+    <?php include "public/header.php"?>
+ <div class="container">
 
-    
-<div class="container">
 	<div class="row mt-5">
 		<div class="col-md-12">
             <div class="title-header text-center">
@@ -25,11 +25,11 @@
             </div>
         </div>
 	</div>
-</div>
+
     
     <br> <br>
 
-<div class="container">
+
   <div class="card-group-vgr-cards">
     <div class="card">
       <div class="card-img-body">
@@ -46,11 +46,11 @@
       </div>
     </div> 
   </div>
-</div>
+
 
     <br><br>
 
-<div class="container">
+
   <div class="card-group-vgr-cards">
     <div class="card">
       <div class="card-img-body">
@@ -64,7 +64,7 @@
       </div>
     </div> 
   </div>
-</div>
+
 
 
 
@@ -82,7 +82,7 @@
 
     <br> <br>
     
-<div class="container">
+
 	<div class="row mt-5">
 		<div class="col-md-12">
             <div class="title-header text-center">
@@ -90,10 +90,10 @@
             </div>
         </div>
 	</div>
-</div>
 
-<section>
-    <div class="container">
+
+
+    
     	<div class="row">
 
     		
@@ -101,7 +101,7 @@
     		<div class="col-md-4">
     		    <div class="card profile-card-3">
     		        <div class="background-block">
-    		            <img src="../../public/assets/img/espaço.jpg" alt="profile-sample1" class="background"/>
+    		            <img src="../../public/assets/img/volcano.jpg" alt="profile-sample1" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
     		            <img src="../../public/assets/img/maco.jpg" alt="profile-image" class="profile"/>
@@ -202,11 +202,13 @@
     		
     	</div>
 
-    </div>
-</section>
+    
 
 
+        </div>
+    
 
-    <?php include "../../public/footer.html" ?>
+   
+       
 </body>
 </html>
