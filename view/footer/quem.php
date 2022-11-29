@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/assets/css/quem.css">
-    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="stylesheet" href="../../public/assets/css/quem.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    
+
     <title>Quem somos</title>
 </head>
 <body>
     
-    <?php include "public/header.php"?>
- <div class="container">
+    <?php include "../../public/header.php"?>
 
+    
+    <div class="container">
 	<div class="row mt-5">
 		<div class="col-md-12">
             <div class="title-header text-center">
@@ -25,11 +25,11 @@
             </div>
         </div>
 	</div>
-
+</div>
     
     <br> <br>
 
-
+<div class="container">
   <div class="card-group-vgr-cards">
     <div class="card">
       <div class="card-img-body">
@@ -46,25 +46,25 @@
       </div>
     </div> 
   </div>
-
+</div>
 
     <br><br>
 
-
+<div class="container">
   <div class="card-group-vgr-cards">
     <div class="card">
       <div class="card-img-body">
       
       </div>
       <div class="card-body">
-        <h4 class="card-title">Nosso objetivo  </h4>
+        <h4 class="card-title">Nosso Objetivo  </h4>
         <br>
         <p class="card-text">Visamos criar um site onde o Aluno/cliente tenha uma experiência dinâmica e facil na hora de alugar seu armário.</p>
      
       </div>
     </div> 
   </div>
-
+</div>
 
 
 
@@ -82,7 +82,7 @@
 
     <br> <br>
     
-
+<div class="container">
 	<div class="row mt-5">
 		<div class="col-md-12">
             <div class="title-header text-center">
@@ -90,10 +90,10 @@
             </div>
         </div>
 	</div>
+</div>
 
-
-
-    
+<section>
+    <div class="container">
     	<div class="row">
 
     		
@@ -104,7 +104,7 @@
     		            <img src="../../public/assets/img/volcano.jpg" alt="profile-sample1" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="../../public/assets/img/maco.jpg" alt="profile-image" class="profile"/>
+    		            <img src="../../public/assets/img/erik.jpg" alt="profile-image" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>Erik Sechi<small>Desenvolvedor Estudante</small></h3>
@@ -119,7 +119,7 @@
     		            <img src="../../public/assets/img/selva.jpg" alt="profile-sample1" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="../../public/assets/img/golira.jpg" alt="profile-image" class="profile"/>
+    		            <img src="../../public/assets/img/erickG.jpg" alt="profile-image" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>Erick Guimarães<small>Desenvolvedor Estudante</small></h3>
@@ -159,7 +159,7 @@
     		            <img src="../../public/assets/img/espaço.jpg" alt="profile-sample1" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="../../public/assets/img/" alt="profile-image" class="profile"/>
+    		            <img src="../../public/assets/img/AL.jpg" alt="profile-image" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2> Ana Luiza<small>Desenvolvedor Estudante</small></h3>
@@ -171,10 +171,10 @@
             <div class="col-md-4">
     		    <div class="card profile-card-3">
     		        <div class="background-block">
-    		            <img src="../../public/assets/img/selva.jpg" alt="profile-sample1" class="background"/>
+    		            <img src="../../public/assets/img/cidade.jpg" alt="profile-sample1" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="../../public/assets/img/#" alt="profile-image" class="profile"/>
+    		            <img src="../../public/assets/img/GK.jpg" alt="profile-image" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>Guilherme Kishida<small>Desenvolvedor Estudante</small></h3>
@@ -186,10 +186,10 @@
             <div class="col-md-4">
     		    <div class="card profile-card-3">
     		        <div class="background-block">
-    		            <img src="../../public/assets/img/zoo.jpg" alt="profile-sample1" class="background"/>
+    		            <img src="../../public/assets/img/praia.jpg" alt="profile-sample1" class="background"/>
     		        </div>
     		        <div class="profile-thumb-block">
-    		            <img src="../../public/assets/img/#" alt="profile-image" class="profile"/>
+    		            <img src="../../public/assets/img/KO.jpg" alt="profile-image" class="profile"/>
     		        </div>
     		        <div class="card-content">
                     <h2>Kayk Oliveira<small>Desenvolvedor Estudante</small></h3>
@@ -202,13 +202,11 @@
     		
     	</div>
 
-    
+    </div>
+</section>
 
 
-        </div>
-    
 
-   
-       
+    <?php include "../../public/footer.html" ?>
 </body>
 </html>
